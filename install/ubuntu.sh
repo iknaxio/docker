@@ -5,4 +5,4 @@ sudo sh -c 'echo deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb
 sudo apt-get update
 sudo apt-get install -y docker-ce
 sudo systemctl enable docker
-##sudo usermod -aG docker $(whoami)
+sudo usermod -aG docker $(whoami)
